@@ -65,12 +65,9 @@ def music_start_panel(_):
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
+   
         [
-            InlineKeyboardButton(text="⭐ About me⭐", callback_data="about"),
-            InlineKeyboardButton(text="✨ Help ✨", callback_data="feature"),
-        ],
-        [
-            InlineKeyboardButton(text="❄ Owner ❄", callback_data="developer"),
+           InlineKeyboardButton(text="🎄 Owner 🎄", url="https://t.me/YOURS_RADHE"),
             InlineKeyboardButton(text="🎄 Update 🎄", url="https://t.me/feeling_sad_Anu"),
         ],
     ]
